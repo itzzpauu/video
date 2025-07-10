@@ -1,0 +1,59 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="forestGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#98FB98;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#228B22;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fondo -->
+  <rect width="400" height="250" fill="url(#forestGradient)"/>
+  
+  <!-- Río -->
+  <path d="M 0,180 Q 100,170 200,180 T 400,170" stroke="#4682B4" stroke-width="30" fill="none" opacity="0.7"/>
+  
+  <!-- Árboles en el fondo -->
+  <ellipse cx="80" cy="130" rx="15" ry="25" fill="#006400"/>
+  <rect x="75" y="140" width="10" height="20" fill="#8B4513"/>
+  
+  <ellipse cx="150" cy="120" rx="20" ry="30" fill="#228B22"/>
+  <rect x="143" y="135" width="14" height="25" fill="#8B4513"/>
+  
+  <ellipse cx="220" cy="125" rx="18" ry="28" fill="#006400"/>
+  <rect x="214" y="138" width="12" height="22" fill="#8B4513"/>
+  
+  <ellipse cx="290" cy="115" rx="22" ry="32" fill="#228B22"/>
+  <rect x="282" y="132" width="16" height="28" fill="#8B4513"/>
+  
+  <ellipse cx="350" cy="120" rx="17" ry="26" fill="#006400"/>
+  <rect x="344" y="133" width="12" height="20" fill="#8B4513"/>
+  
+  <!-- Árboles en primer plano -->
+  <ellipse cx="30" cy="160" rx="25" ry="40" fill="#228B22"/>
+  <rect x="20" y="180" width="20" height="35" fill="#8B4513"/>
+  
+  <ellipse cx="370" cy="155" rx="28" ry="42" fill="#006400"/>
+  <rect x="358" y="178" width="24" height="38" fill="#8B4513"/>
+  
+  <!-- Flores y hierbas -->
+  <circle cx="100" cy="200" r="3" fill="#FF69B4"/>
+  <circle cx="105" cy="195" r="2" fill="#FFB6C1"/>
+  <circle cx="95" cy="195" r="2" fill="#FF69B4"/>
+  
+  <circle cx="250" cy="195" r="3" fill="#FFD700"/>
+  <circle cx="255" cy="190" r="2" fill="#FFA500"/>
+  <circle cx="245" cy="190" r="2" fill="#FFD700"/>
+  
+  <circle cx="320" cy="200" r="3" fill="#9370DB"/>
+  <circle cx="325" cy="195" r="2" fill="#DDA0DD"/>
+  <circle cx="315" cy="195" r="2" fill="#9370DB"/>
+  
+  <!-- Mariposa -->
+  <ellipse cx="180" cy="90" rx="4" ry="3" fill="#FF69B4" transform="rotate(20 180 90)"/>
+  <ellipse cx="180" cy="90" rx="4" ry="3" fill="#FFB6C1" transform="rotate(-20 180 90)"/>
+  <line x1="180" y1="90" x2="180" y2="85" stroke="black" stroke-width="1"/>
+  
+  <!-- Texto -->
+  <text x="200" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="white" font-weight="bold">Naturaleza Pura</text>
+</svg>
